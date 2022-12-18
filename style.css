@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed !important;
+    width: 100%;
+    z-index: 2;
+}
+
+#logo {
+    text-decoration: none;
+    font-size: 28px;
+    padding: 22px 0 22px 150px;
+    color: white;
+    letter-spacing: 9px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar-img {
+    width: 100px;
+}
+
+.navs {
+    display: inline-block;
+    text-align: right;
+}
+
+.navs a {
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 45px;
+    color: white;
+    letter-spacing: 8px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navs a:hover {
+    text-decoration: none;
+    color: #B2B2B2;
+    transition: 1s;
+}
+
+.bg-1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg-1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-2 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.4) 100%), url(bg-4.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url(bg-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 25px;
+    padding: 7px 0 7px 0;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    letter-spacing: 25px;
+    padding: 7px 0 7px 0;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+}
+
+.first-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 100%), url(main-2.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.healing {
+    position: relative;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 280px;
+    background: rgba(178, 181, 205, 0.3);
+}
+
+.healing h1 {
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.healing p {
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 10px;
+}
+
+.btn-1 {
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    padding: 9px;
+    text-decoration: none;
+    background-color: #39b035a2;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.6s;
+}
+
+.btn-1:hover {
+    text-decoration: none;
+    background-color: #2a8027a2;
+    color: white;
+}
+
+.desert a:hover {
+    text-decoration: none;
+}
+
+.sec-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%), url(herbs.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ocean {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.ocean a {
+    text-decoration: none;
+}
+
+.ocean h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+
+.ocean a:hover {
+    text-decoration: none;
+}
+
+.ocean h1:hover {
+    color: #CDC2AE;
+    transition: 0.6s;
+}
+
+.third-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%), url(disease-1.jpg);
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mountain {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.mountain a {
+    text-decoration: none;
+}
+
+.mountain h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    letter-spacing: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mountain a:hover {
+    text-decoration: none;
+}
+
+.mountain h1:hover {
+    color: #CDC2AE;
+    transition: 0.6s;
+}
+
+.footer {
+    background: #a99576;
+    width: 100%;
+    text-align: left;
+    height: 240px;
+    position: relative;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer .footer-left {
+    width: 23%;
+}
+
+.footer .footer-company {
+    color: white;
+    position: absolute;
+    margin: 110px 110px;
+    font-size: 17px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.footer-logo {
+    position: absolute;
+    width: 120px;
+    left: 90px;
+    top: 20px;
+}
+
+.footer .footer-center {
+    width: 33%;
+    text-align: center;
+}
+
+.footer .footer-center i {
+    font-size: 20px;
+    margin-top: 12px;
+    color: white;
+}
+
+.footer .footer-center p {
+    color: white;
+    font-size: 17px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.footer .footer-center .info {
+    color: white;
+}
+
+.footer .footer-right {
+    width: 43%;
+}
+
+.footer .footer-right i {
+    font-size: 20px;
+    margin-top: 47px;
+    color: white;
+    padding: 0 10px;
+}
+
+.footer .footer-right .footer-company-about {
+    color: white;
+    margin-top: 20px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.footer .footer-right .footer-company-about span {
+    color: white;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 10px;
+    font-family: 'Cormorant Garamond', serif;
+}
